@@ -230,7 +230,7 @@ int main() {
     }
     */
 
-    /**************判断这个客户端是否已经加在了链表中************/
+    /**************删除节点************/
     for (int i = 0; i < INS; i++) {
         para[i].num = i;
         if (pthread_create(&t[i], NULL, func, (void *)&para[i]) == -1) {
