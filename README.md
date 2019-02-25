@@ -2,7 +2,7 @@
 
 ### Client需求描述
 
-- 在client端，单独创建子进程对六个指标项进行实时监控，按照项目不同，设置不同的时间间隔。（MEM，CPU 5S）（Disk 1min）（SYSinfo， User  1min）(Proc 30S)
+- 在client端，单独创建6个子进程对六个指标项进行实时监控，按照项目不同，设置不同的时间间隔。（MEM，CPU 5S）（Disk 1min）（SYSinfo， User  1min）(Proc 30S)
 - 监控所得数据先存放在本地，每10次检测写1次硬盘
 - 系统调用可以使用system及popen
 
