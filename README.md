@@ -136,7 +136,7 @@ PIHealthLog=/var/log/pihealth/pihealthd.log
 
 以下以用户zq为例：
 
-- **Master**端可以使用以下命令：
+- **Master**端可以使用以下命令：s
 
 ```
 service pihealthd_zq start    #启动服务
